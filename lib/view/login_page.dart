@@ -146,7 +146,7 @@ class _LoginPageState extends State<LoginPage> {
         await _auth.signInWithEmailAndPassword(
             email: email, password: password);
         navigator.pushReplacement(MaterialPageRoute(builder: (context) {
-          return homePage();
+          return HomePage();
         }));
       }
     } catch (e) {
