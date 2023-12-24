@@ -2,9 +2,9 @@ import 'package:base_todolist/model/item_list.dart';
 import 'package:flutter/material.dart';
 import '../model/todo.dart';
 
-class TodoPage extends StatelessWidget {
+class homePage extends StatelessWidget {
   final Todo dataList;
-  const TodoPage({super.key, required this.dataList});
+  const homePage({super.key, required this.dataList});
 
   @override
   Widget build(BuildContext context) {
