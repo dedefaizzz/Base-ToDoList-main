@@ -6,8 +6,7 @@ import 'package:flutter/material.dart';
 import '../model/todo.dart';
 
 class HomePage extends StatefulWidget {
-  final Todo dataList;
-  const HomePage({super.key, required this.dataList});
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -27,7 +26,6 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    getTodo();
   }
 
   @override

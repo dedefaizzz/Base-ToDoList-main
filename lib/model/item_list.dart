@@ -115,7 +115,6 @@ class ItemList extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 10),
-            const ChecklistButton(),
             IconButton(
               icon: Icon(
                 todo.isComplete
